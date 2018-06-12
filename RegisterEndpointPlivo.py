@@ -38,6 +38,8 @@ def CreateEndpoint (username, password, alias):
 	time.sleep(2)
 	return;
 
+def SipCallFunc ():
+	print("This is a sip function")
 
 login (loginID, Password)
 
